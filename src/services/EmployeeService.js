@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const EMPLOYEE_API_BASE_URL = "http://localhost:8080/api/v1/employees";
-const EMPLOYEE_API_BASE_URL = "https://5nmsmhvvz0.execute-api.us-east-1.amazonaws.com/Prod";
+const EMPLOYEE_API_BASE_URL = "https://defdupsei0.execute-api.us-east-1.amazonaws.com/Prod";
 class EmployeeService {
 
     getEmployees(){
@@ -26,3 +26,4 @@ class EmployeeService {
 }
 
 export default new EmployeeService()
+
